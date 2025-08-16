@@ -2,7 +2,7 @@
 # Overview
 This is a post detailing my experience writing an interpreter for the CHIP-8 language using C# with the MonoGame framework. The project can be found [here](https://github.com/EdmondsNathan/CHIP8Interpreter){:target="_blank"} and is dedicated to the public domain under the CC0 license.
 
-![CHIP-8 Splash Screen](/images/25-08-16-CHIP8-Splash.png)
+![CHIP-8 Splash Screen](/images/25-08/16/CHIP8-Splash.png)
 
 # What is CHIP-8
 CHIP-8 is a programming language from the 1970s which was used to make simple games for systems like the COSMAC VIP. It is an 8-bit system with 4 kilobytes of RAM and a 64x32 single-color display. As these specs suggest, it is a very minimal system, perfect for learning the basics of building an interpreter or emulator.
@@ -289,7 +289,7 @@ I found the decoder to be an interesting look into how computers take the seemin
 ## Executor
 The executor gave me a great insight into the functioning of computers. It's truly amazing how programs like Pong, Space Invaders, and Lunar Lander are able to be created using only 34 basic instructions. It's a great example of how relatively simple rules can give rise to very complex results. Every instruction comes down to just reading and/or modifying data in one way or another. The most complex instruction was 0xDXYN, which is responsible for drawing sprites to the screen. But when you get down to the implementation, even that is just reading and modifying data.
 
-![CHIP-8 Pong](/images/25-08-16-CHIP8-Pong.png)
+![CHIP-8 Pong](/images/25-08/16/CHIP8-Pong.png)
 
 # Challenges I Overcame
 This project presented a lot of interesting challenges to work through. By far the most complex part was the execution step of the interpreter. A lot of the instructions had very specific quirks in the way that they work that had to be properly implemented. Some of the more complex instructions like 0xDXYN (draw sprites to the screen) took a lot of trial and error to get working right. Thankfully, the [test ROMs from Tim Franssen](https://github.com/Timendus/chip8-test-suite?tab=readme-ov-file){:target="_blank"} as well as the excellent [guide from Tobias Langhoff](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/){:target="_blank"} proved invaluable in getting this project up and running.
