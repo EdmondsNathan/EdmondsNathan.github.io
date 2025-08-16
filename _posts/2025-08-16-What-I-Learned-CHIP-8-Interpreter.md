@@ -1,3 +1,6 @@
+---
+description: My journey building a CHIP-8 interpreter using C# .NET and MonoGame
+---
 ## What I learned Building a CHIP-8 Interpreter
 # Overview
 This is a post detailing my experience writing an interpreter for the CHIP-8 language using C# with the MonoGame framework. The project can be found [here](https://github.com/EdmondsNathan/CHIP8Interpreter){:target="_blank"} and is dedicated to the public domain under the CC0 license.
