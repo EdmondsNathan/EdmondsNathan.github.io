@@ -8,4 +8,4 @@ I started my journey into programming when I first downloaded Unity 3D as a teen
 This blog is dedicated to my experiences in the world of tech. Inside you will find posts covering what I find interesting, whether it be projects I am working on or something new I am learning.
 
 ## Get in Contact 📪
-The best way to get in touch with me is through my [email](nathan.edmonds.business@gmail.com). I am also on [LinkedIn](https://www.linkedin.com/in/edmondsnathan/) and [GitHub](https://github.com/EdmondsNathan).
+The best way to get in touch with me is through my [email](mailto:nathan.edmonds.business@gmail.com). I am also on [LinkedIn](https://www.linkedin.com/in/edmondsnathan/) and [GitHub](https://github.com/EdmondsNathan).
