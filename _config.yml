@@ -1,12 +1,12 @@
 title: "Nathan's Tech Blog"
 author: "Nathan Edmonds"
-description: "My dive into the world of computing." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "My perspective on technology" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 
 # twitter_username: "twitteruser"
-# email: "nathan.edmonds.business@gmail.com"
+email: "nathan.edmonds.business@gmail.com"
 github_username: "EdmondsNathan"
 linkedin_username: "edmondsnathan"
 #facebook_username: username
